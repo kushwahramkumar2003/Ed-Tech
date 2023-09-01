@@ -119,9 +119,27 @@ function Home() {
         </div>
       </div>
 
-      {/* Section2  */}
+      {/* Section 2 */}
+      <div className="bg-pure-greys-5 text-richblack-700">
+        <div className="homepage_bg h-[332px]">
+          <div className="flex flex-col items-center w-11/12 gap-5 mx-auto max-w-maxContent">
+            <div className="h-[250px]"></div>
+            <div className="flex flex-row text-white gap-7">
+              <CTAButton active={true} linkto={"/signup"}>
+                <div className="flex items-center gap-2">
+                  Explore Full Catalog <FaArrowRight />
+                </div>
+              </CTAButton>
+              <CTAButton active={false} linkto={"/signup"}>
+                <div>Learn more</div>
+              </CTAButton>
+            </div>
+          </div>*
+          /6+
+        </div>
+      </div>
 
-      {/* Section3  */}
+      {/* Section 3*/}
 
       {/* Footer  */}
     </div>
